@@ -1,18 +1,59 @@
-# Change baseurl before deploy
-baseurl = "https://starter.stack.cai.im/"
+baseurl = "https://netzro.github.io/"
 locale  = "en-us"
-title   = "Hugo Theme Stack Starter"
+title   = "Gifted's Space"
 
-# Theme i18n support
-# See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
 defaultContentLanguage = "en"
-
-# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
-# This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage = false
 
-# Change it to your Disqus shortname before using
-disqusShortname = "hugo-theme-stack"
-
 [pagination]
-    pagerSize = 5
+    pagerSize = 10
+
+[params]
+    description = "A personal site by Gifted — movies, music, books, and links."
+    env         = "production"
+    feed        = "disabled"
+    footer      = "custom"
+    header      = "fixed"
+    hero        = "disabled"
+    mainSections = ["movies", "music", "books", "links"]
+
+[params.logo]
+    logo      = ""
+    logoDark  = ""
+    logoSmall = ""
+
+[params.sidebar]
+    emoji    = "🎬"
+    subtitle = "Movies, music, books, and links."
+    avatar   = ""
+
+[params.article]
+    readingTime   = true
+    headingAnchor = false
+    summary       = true
+
+[params.widgets]
+    homepage = []
+    page     = []
+
+[menu]
+    [[menu.main]]
+        name = "Movies"
+        url  = "/movies/"
+        weight = 1
+    [[menu.main]]
+        name = "Music"
+        url  = "/music/"
+        weight = 2
+    [[menu.main]]
+        name = "Reading"
+        url  = "/reading-list/"
+        weight = 3
+    [[menu.main]]
+        name = "Blogroll"
+        url  = "/blogroll/"
+        weight = 4
+
+[colorScheme]
+    toggle  = true
+    default = "auto"
