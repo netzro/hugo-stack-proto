@@ -1,9 +1,9 @@
 ---
 title: "Gunner"
-date: "24th August 2024</p>"
+date: "2024-08-24"
 type: "movie"
 poster: "https://netzro.github.io/images/posters/gunner-2024.jpg"
-released: "2024"
-watched: "24th August 2024</p>"
+released: 2024
+watched: "24th August 2024"
 synopsis: "Lee Gunner tries to save his sons, Luke and Travis, from a dangerous drug gang."
 ---

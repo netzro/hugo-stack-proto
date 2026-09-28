@@ -1,9 +1,9 @@
 ---
 title: "Deadpool"
-date: "18th September 2024</p>"
+date: "2024-09-18"
 type: "movie"
 poster: "https://netzro.github.io/images/posters/deadpool-2010.jpg"
-released: "2010"
-watched: "18th September 2024</p>"
+released: 2010
+watched: "18th September 2024"
 synopsis: "A wisecracking mercenary gets experimented on and becomes immortal yet hideously scarred, and sets out to track down the man who ruined his looks."
 ---
